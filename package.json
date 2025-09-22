@@ -1,0 +1,28 @@
+{
+  "name": "boilerroom-traffic-light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node trafficLight.js",
+    "dev": "nodemon --watch . trafficLight.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shah-Sabouri/boilerroom-traffic-light.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shah-Sabouri/boilerroom-traffic-light/issues"
+  },
+  "homepage": "https://github.com/Shah-Sabouri/boilerroom-traffic-light#readme",
+  "dependencies": {
+    "johnny-five": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
